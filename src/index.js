@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import str from './SampleDemos/jsxDemo';
 
+ const a=React.createElement('div',null,"Hello World");
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+  //a,
+ // str,
   document.getElementById('root')
 );
 
