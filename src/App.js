@@ -10,6 +10,7 @@ import MovieDetails from './EventHandling/MovieDetails';
 import BindingDemo from './EventHandling/BindingDemo';
 import ParentComp from './EventHandling/ParentComp';
 import EmployeeList from './ListRenderingAndInlineStyling/EmployeeList';
+import LifeCycle from './Form Handling/LifeCycle';
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
     {/* <MovieDetails name="ABC" director="XYZ"/> */}
     {/* <BindingDemo/> */}
     {/* <ParentComp/> */}
-    <EmployeeList/>
+    {/* <EmployeeList/> */}
+    <LifeCycle/>
     </div>
   );
 }

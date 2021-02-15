@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import LifeCycleChild from './LifeCycleChild';
+//import LifeCycleChild from './LifeCycleChild';
 
 class LifeCycle extends Component {
     constructor(props) {
         super(props);
         console.log('constructor')
             this.state = {
-             name:'sansa'
+             name:'Ram'
         }
     }
  static getDerivedStateFromProps(){
@@ -21,7 +21,7 @@ class LifeCycle extends Component {
         return (
             <div>
         <h5> life cycle method</h5>
-        <LifeCycleChild />
+        {/* <LifeCycleChild /> */}
             </div>
         )
     }
