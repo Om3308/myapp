@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/jsx-pascal-case */
 import logo from './logo.svg';
 import './App.css';
 import Hello from './Hello';
@@ -22,6 +24,15 @@ import Heroname from './FragmentsAndComponents/Heroname';
 import FirstContext, { FirstProvider } from './ContextHttp/ContextValue';
 import Electrical from './ContextHttp/Electrical';
 import RouteDemo from './Routing/RoutingDemo';
+import Hook_Counter from './HooksDemos/Hook_Counter';
+import Hook_prevState from './HooksDemos/hook_prevState';
+import HookCounter_Three from './HooksDemos/Hook_Three';
+import HookCounter_Four from './HooksDemos/HookCounter_Four';
+import UseEffect_counter from './HooksDemos/UseEffect_counter';
+import UseEffectDemo3 from './HooksDemos/UseEffect_demo3';
+import DemoContext from './HooksDemos/ContextDemo';
+import Main from './Routing/Crud/Main';
+
 
 
 
@@ -29,7 +40,7 @@ import RouteDemo from './Routing/RoutingDemo';
 function App() {
   return (
     <div className="App">
-    <h3>I am in App component using  App Component </h3>
+    {/* <h3>I am in App component using  App Component </h3> */}
     
     {/* <Hello/> */}
     {/* <Student add="Nashik"/> */}
@@ -60,7 +71,14 @@ function App() {
       <Electrical/>
     </FirstProvider> */}
     {/* <Data/> */}
-    <RouteDemo/>
+    <Main/>
+    {/* <Hook_Counter/> */}
+    {/* < Hook_prevState/> */}
+    {/* <HookCounter_Three/> */}
+    {/* <HookCounter_Four/> */}
+    {/* <UseEffect_counter/> */}
+    {/* <UseEffectDemo3/> */}
+    {/* <DemoContext/>  */}
     
        </div>
   );
